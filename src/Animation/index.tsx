@@ -54,7 +54,8 @@ const App = () => {
 
   return (
     <SafeAreaView style={styles.container}>
-      <Animated.View
+      <Animated.Image
+        source={require('./assets/Star.png')}
         style={[
           styles.box,
           {
@@ -79,12 +80,11 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'space-evenly',
-    backgroundColor: '#ffffff',
+    backgroundColor: '#2d2d2d',
   },
   box: {
     height: 50,
     width: 50,
-    backgroundColor: 'green',
   },
 });
 

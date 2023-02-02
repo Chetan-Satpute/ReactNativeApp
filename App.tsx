@@ -1,9 +1,9 @@
 import React from 'react';
 
-import Animation from './src/Animation';
+import Navigation from './src/Navigation';
 
 const App = () => {
-  return <Animation />;
+  return <Navigation />;
 };
 
 export default App;
